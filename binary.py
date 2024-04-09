@@ -27,3 +27,5 @@ plt.ylabel('DUI (1 if BAC >= 0.08, otherwise 0)')
 plt.title('BAC vs. DUI')
 plt.legend()
 plt.show()
+
+dwi.to_csv('hansen_dwi.csv')
